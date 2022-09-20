@@ -1,0 +1,86 @@
+body {
+    padding: 1%;
+    background-color: #dee2ff;
+}
+h1 {
+  font-family: fantasy;
+}
+p {
+  font-family: monospace;
+}
+.nacionalidade {
+  font-style: italic;
+  text-decoration: underline;
+}
+.estado {
+  font-style: italic;
+  text-decoration: underline;
+} 
+.equipe {
+  font-style: italic;
+  text-decoration: underline;
+}
+.uni {
+color: blue;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: large;
+font-weight: 900;
+font-style: oblique;
+line-height: 40px;
+text-align: left;
+text-decoration: overline;
+} 
+.git {
+color: rgb(212, 0, 255);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: larger;
+font-weight: 800;
+font-style: inherit;
+line-height: 100px;
+text-align: justify;
+text-decoration: dashed;
+}
+.html {
+color: rgb(255, 187, 0);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: large;
+font-weight: 900;
+font-style: oblique;
+line-height: 40px;
+text-align: justify;
+text-decoration: overline;
+}
+.css {
+color: red;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: larger;
+font-weight: 500;
+font-style: inherit;
+line-height: 60px;
+text-align: start;
+text-decoration: dashed;
+}
+#minha_foto {
+    float: left;
+    height: 390px;
+    padding: 10px;
+    background-color: mediumpurple;
+    position: absolute;
+}
+.image-container {
+   height: 415px;
+   position: relative;
+   width: 550px; 
+}
+.meuNome {
+    text-align: center;
+}
+#descricao {
+    width: 200px;
+    right: 100px;
+    float: right;
+    position: sticky;
+}
+ul:nth-of-type(1) li:nth-of-type(odd) {
+    background-color: aqua;
+}
